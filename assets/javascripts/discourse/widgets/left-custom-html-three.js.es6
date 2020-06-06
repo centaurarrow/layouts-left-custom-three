@@ -21,7 +21,7 @@ export default createLayoutsWidget('left-custom-html-three', {
       scheduleOnce('afterRender', this, function() {
         $("div.left-custom-html-three").append(`<div class='contents'>${html}</div>`);
       });
-      state.renderScheduled = true;
+      //state.renderScheduled = true;
     }
     return h('div.left-custom-html-three');
   }
